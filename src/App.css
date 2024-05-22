@@ -1,0 +1,268 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+/* src/App.css */
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+label {
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  font-size: 18px;
+}
+
+select {
+  margin-left: 10px;
+  padding: 5px 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+table {
+  width: 90%;
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #745ba2;
+}
+
+.pagination-controls {
+  text-align: center;
+  margin: 20px auto;
+}
+
+button {
+  margin: 10px;
+  padding: 10px 15px;
+  font-size: 16px;
+  border: 1px solid #007bff;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+button:disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+  background-color: #cccccc;
+  border: 1px solid #cccccc;
+}
+
+.author-search-input {
+  width: 200px; /* Adjust the width as desired */
+  padding: 10px 15px;
+  font-size: 16px;
+  border: 1px solid #007bff;
+  border-radius: 4px;
+  transition: border-color 0.3s;
+  margin: 10px;
+}
+
+.author-search-input:focus {
+  border-color: #0056b3;
+  outline: none;
+}
+
+
+.spinner {
+  border: 8px solid #f3f3f3;
+  border-top: 8px solid #007bff;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 1s linear infinite;
+  margin: 20px auto;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.download-button-container {
+  text-align: center;
+}
+
+.download-button {
+  margin-top: 20px; /* Adjust as needed */
+}
+
+.download-button-conta {
+  text-align: right;
+}
+
+.content {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px; /* Reduced gap to move the box closer to the image */
+}
+
+.imagedim {
+  flex: 1;
+  text-align: center;
+}
+
+.imagedim img {
+  height: 400px;
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+
+.features-box {
+  flex: 1;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 40px;
+  margin: 15px;
+  background-color: #fff;
+  text-align: left;
+  font-size: 18px; /* Increased text size for the entire features box */
+}
+
+.features-box h2 {
+  margin-top: 0;
+  font-size: 24px; /* Increased text size for the heading */
+}
+
+.features-list {
+  list-style-type: disc;
+  padding-left: 20px;
+  opacity: 0;
+  animation: fadeIn 1s forwards;
+}
+
+.features-list li {
+  margin-bottom: 10px;
+  animation: slideIn 0.5s forwards;
+  font-size: 18px; /* Increased text size for the list items */
+}
+
+.features-list li:nth-child(1) {
+  animation-delay: 0.5s;
+}
+
+.features-list li:nth-child(2) {
+  animation-delay: 1s;
+}
+
+.features-list li:nth-child(3) {
+  animation-delay: 1.5s;
+}
+
+.features-list li:nth-child(4) {
+  animation-delay: 2s;
+}
+
+.features-list li:nth-child(5) {
+  animation-delay: 2.5s;
+}
+
+.features-list li:nth-child(6) {
+  animation-delay: 3s;
+}
+
+.features-list li:nth-child(7) {
+  animation-delay: 3.5s;
+}
+
+.features-list li:nth-child(8) {
+  animation-delay: 4s;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(-20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
