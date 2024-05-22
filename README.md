@@ -8,6 +8,7 @@ In the project directory, you can run:
 
 ### `npm start`
 
+## Features of application
 
 This application used to fetch data of Books displaying there 
 --->Rating's Average
