@@ -1,3 +1,14 @@
+# Getting Started with Create React App
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Available Scripts
+
+In the project directory, you can run:
+
+### `npm start`
+
+
 This application used to fetch data of Books displaying there 
 --->Rating's Average
 --->Authors Name
